@@ -1,0 +1,182 @@
+@import "./resets";
+@import "./responsive";
+@import "./animation";
+@import "./variable";
+
+.topic {
+  font-weight: 600;
+  font-size: 27px;
+  border-bottom: 2px solid $orimaryBlue;
+  border-radius: 16px;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 31px;
+  overflow: hidden;
+}
+
+
+.btn {
+  border: 2px solid $orimaryBlue !important;
+  border-radius: 13px !important;
+  padding: 10px 10px 10px 10px !important;
+  width: 145px;
+}
+.btn:hover{
+box-shadow: 0px 1px 19px 2px  #88a0e5;
+}
+
+.fab,
+.fas {
+  color: black;
+  padding: 10px;
+  font-size: 27px;
+}
+
+/* scroll-bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #dbdbdb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: $orimaryBlue;
+}
+
+//////////////////////////header section///////////////////
+.Header_section {
+  text-align: center;
+
+  .header_name {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .rounded-circle {
+  object-fit: cover;
+  }
+
+  .h_name {
+    font-size: 23px;
+    font-weight: 600;
+  }
+
+}
+
+//////////////////////////// about section //////////////////////////
+.about_section {
+  padding: 25px;
+  border-radius: 19px;
+
+  .abt_detail {
+    font-size: 18px;
+  }
+
+  .abt_list {
+    font-size: 18px;
+  }
+
+  .li_top {
+    font-weight: 600;
+  }
+
+  .abt_btn  {
+   font-weight: 700;
+  }
+}
+
+/////////////////////////////////adademic section//////////////////////
+.edu_detail {
+  font-size: 18px;
+  padding: 25px;
+  border-radius: 19px;
+}
+
+.edu_dtop {
+  font-weight: 600;
+}
+
+///////////////////////skills/////////////////////////////////////////
+.skills {
+  padding: 25px;
+  height: 190px;
+  border-radius: 19px;
+  overflow-x: hidden;
+}
+
+.imagess {
+  height: 100px;
+  width: 100px;
+}
+
+.skill_gap {
+  width: 150px !important;
+}
+
+.skills_logo {
+  padding: 11px;
+  margin-bottom: 35px;
+  // width: fit-content;
+  border-radius: 19px;
+border: 2px solid $orimaryBlue;
+}
+
+/* ///////////////////////////////////////// work experiance////////////////////////////// */
+.work_experience {
+  font-size: 18px;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 19px;
+
+  .company {
+    width: 300px;
+    text-align: center;
+  }
+
+  .comp_name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -24px;
+  }
+}
+
+.intern_btn {
+font-weight: 700;
+}
+
+.compa {
+  font-weight: 600;
+}
+
+/* ///////////////////////////////////////contact////////////////////////////////// */
+.contact {
+  background-color: #e1e1e1;
+  padding-top: 4px;
+
+  .topics {
+    font-weight: 600;
+    font-size: 20px;
+    border-bottom: 2px solid #88a0e5;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 31px;
+  }
+
+  .addr {
+    text-align: center;
+  }
+
+  .mail {
+    text-align: center;
+  }
+
+  .social {
+    text-align: center;
+  }
+}
